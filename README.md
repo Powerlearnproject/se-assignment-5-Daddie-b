@@ -1,45 +1,83 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/XoLGRbHq)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15287283&assignment_repo_type=AssignmentRepo)
-# SE-Assignment-5
-Installation and Navigation of Visual Studio Code (VS Code)
- Instructions:
-Answer the following questions based on your understanding of the installation and navigation of Visual Studio Code (VS Code). Provide detailed explanations and examples where appropriate.
+Installation of VS Code on Windows 11
+Steps to Download and Install:
+I visited the Visual Studio Code website.
+I clicked on "Download for Windows" to get the installer.
+I ran the .exe file, accepted the license agreement, chose the installation options, and completed the installation.
 
- Questions:
+Prerequisites:
+My system met the minimum requirements.
+I had administrative privileges.
+I installed Git for source control features.
 
-1. Installation of VS Code:
-   - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+First-time Setup
+Initial Configurations:
+chose a theme from File > Preferences > Color Theme.
+adjusted font size and settings in File > Preferences > Settings.
+I installed essential extensions like Prettier, ESLint, and Live Server from the Extensions view (Ctrl + Shift + X).
 
-2. First-time Setup:
-   - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+User Interface Overview
+Activity Bar: On the far left, it lets me switch between views like Explorer, Search, and Source Control.
+Side Bar: Next to the Activity Bar, it shows the contents of the selected view.
+Editor Group: The main area where I edit files, with support for multiple tabs.
+Status Bar: At the bottom, it shows information about the current file and Git status.
 
-3. User Interface Overview:
-   - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+Command Palette
+Accessing the Command Palette:
+I press Ctrl + Shift + P or F1.
 
-4. Command Palette:
-   - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+Common Tasks:
+Opening files (Ctrl + P).
+Running commands like Git: Commit and Debug: Start.
+Changing settings like color themes (Preferences: Color Theme).
 
-5. Extensions in VS Code:
-   - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+Extensions in VS Code
+Role of Extensions:
+They enhance VS Code's functionality and add support for more languages and tools.
+Finding and Installing Extensions:
+I open the Extensions view (Ctrl + Shift + X), search for extensions, and click Install.
+Managing Extensions:
+I can enable, disable, or uninstall extensions from the Extensions view.
+Examples: Prettier, ESLint, Live Server.
+Integrated Terminal
+Opening the Integrated Terminal:
+I use View > Terminal or `Ctrl + ``.
+Using the Integrated Terminal:
+It provides a built-in command line within VS Code.
+It lets me switch easily between editing code and running commands.
 
-6. Integrated Terminal:
-   - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+File and Folder Management
+Creating, Opening, and Managing Files and Folders:
+I right-click in the Explorer view to create new files or folders.
+I double-click to open files or use File > Open File.
+I manage files by renaming, deleting, or moving them in the Explorer view.
+Navigating Between Files and Directories:
+I use the Explorer view and Ctrl + P to quickly open files.
+I use breadcrumbs at the top of the editor to navigate directories.
 
-7. File and Folder Management:
-   - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+Settings and Preferences
+Customizing Settings:
+I access settings via File > Preferences > Settings or Ctrl + ,.
+Examples:
+Theme: Changed in Color Theme under Preferences.
+Font Size: Adjusted under Text Editor > Font.
+Keybindings: Customized in File > Preferences > Keyboard Shortcuts.
 
-8. Settings and Preferences:
-   - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+Debugging in VS Code
+Steps to Set Up and Start Debugging:
+I configured the debugger by opening the Run and Debug view (Ctrl + Shift + D) and creating a launch.json file.
+I set breakpoints by clicking in the gutter next to the line numbers.
+I started debugging by clicking the Start Debugging button or pressing F5.
+Key Debugging Features:
+Breakpoints, watch variables, call stack, and stepping through code.
+Using Source Control
+Integrating Git with VS Code:
+I initialized a repository from the Source Control view (Ctrl + Shift + G).
+I staged changes, wrote commit messages, and committed.
+I pushed changes to GitHub using the ... icon and selecting Push.
+I linked my repository to GitHub with git remote add origin <URL>.
 
-9. Debugging in VS Code:
-   - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
 
-10. Using Source Control:
-    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
- Submission Guidelines:
-- Your answers should be well-structured, concise, and to the point.
-- Provide screenshots or step-by-step instructions where applicable.
-- Cite any references or sources you use in your answers.
-- Submit your completed assignment by 1st July 
+
+
 
