@@ -1,57 +1,80 @@
-Developer Environment Setup Documentation
-1. Operating System (OS)
-   Install Windows 10pro
+Installation of VS Code on Windows 11
+Steps to Download and Install:
+I visited the Visual Studio Code website.
+I clicked on "Download for Windows" to get the installer.
+I ran the .exe file, accepted the license agreement, chose the installation options, and completed the installation.
 
-I started by downloading Windows 10pro and creating a bootable USB drive. After setting up the USB drive, I installed Windows 10pro by booting from it and following the on-screen instructions.
+Prerequisites:
+My system met the minimum requirements.
+I had administrative privileges.
+I installed Git for source control features.
 
-Challenges:
-Ensuring the USB drive was correctly created and bootable. set to mbr/gpt
+First-time Setup
+Initial Configurations:
+I chose a theme from File > Preferences > Color Theme.
+I adjusted font size and settings in File > Preferences > Settings.
+I installed essential extensions like Prettier, ESLint, and Live Server from the Extensions view (Ctrl + Shift + X).
 
-2. Install a Text Editor or Integrated Development Environment (IDE)
-   Install Visual Studio Code (VS Code)
-I downloaded and installed Visual Studio Code. The installation was straightforward, and I quickly had VS Code up and running.
+User Interface Overview
+Activity Bar: On the far left, it lets me switch between views like Explorer, Search, and Source Control.
+Side Bar: Next to the Activity Bar, it shows the contents of the selected view.
+Editor Group: The main area where I edit files, with support for multiple tabs.
+Status Bar: At the bottom, it shows information about the current file and Git status.
 
-Challenges:
-No challenges encountered here. the vs code runned at the first instance.
+Command Palette
+Accessing the Command Palette:
+I press Ctrl + Shift + P or F1.
+Common Tasks:
+Opening files (Ctrl + P).
+Running commands like Git: Commit and Debug: Start.
+Changing settings like color themes (Preferences: Color Theme).
 
-3. Set Up Version Control System
-   Install Git and configure GitHub
-I installed Git and configured it with my user information. I created a GitHub account and initialized a Git repository for my project. I made my first commit and pushed it to GitHub.
+Extensions in VS Code
+Role of Extensions:
+They enhance VS Code's functionality and add support for more languages and tools.
+Finding and Installing Extensions:
+I open the Extensions view (Ctrl + Shift + X), search for extensions, and click Install.
+Managing Extensions:
+I can enable, disable, or uninstall extensions from the Extensions view.
+Examples: Prettier, ESLint, Live Server.
 
-Challenges:
-Understanding the initial setup and first commit processes.
+Integrated Terminal
+Opening the Integrated Terminal:
+I use View > Terminal or `Ctrl + ``.
 
-4. Install Necessary Programming Languages and Runtimes
-   Install Python
-I downloaded and installed Python. I verified the installation to ensure it was correctly set up.
+Using the Integrated Terminal:
+It provides a built-in command line within VS Code.
+It lets me switch easily between editing code and running commands.
+File and Folder Management
+Creating, Opening, and Managing Files and Folders:
+I right-click in the Explorer view to create new files or folders.
+I double-click to open files or use File > Open File.
+I manage files by renaming, deleting, or moving them in the Explorer view.
 
-Challenges:
-Ensuring that pip was installed correctly.
+Navigating Between Files and Directories:
+I use the Explorer view and Ctrl + P to quickly open files.
+I use breadcrumbs at the top of the editor to navigate directories.
+Settings and Preferences
 
-5. Install Package Managers
-   Verify pip installation
-I verified that pip was installed correctly with Python.
+Customizing Settings:
+I access settings via File > Preferences > Settings or Ctrl + ,.
+Examples:
+Theme: Changed in Color Theme under Preferences.
+Font Size: Adjusted under Text Editor > Font.
+Keybindings: Customized in File > Preferences > Keyboard Shortcuts.
 
-Challenges:
-This step was straightforward since pip comes bundled with Python.
+Debugging in VS Code
+Steps to Set Up and Start Debugging:
+I configured the debugger by opening the Run and Debug view (Ctrl + Shift + D) and creating a launch.json file.
+I set breakpoints by clicking in the gutter next to the line numbers.
+I started debugging by clicking the Start Debugging button or pressing F5.
 
-6. Configure a Database (MySQL)
-   Install MySQL
-I downloaded and installed MySQL, following the installation instructions to set up the MySQL server.
+Key Debugging Features:
+Breakpoints, watch variables, call stack, and stepping through code.
+Using Source Control
 
-Challenges:
-Adding the paths to environmental variables. confused was either user or system variable
-
-7. Set Up Development Environments and Virtualization (Optional)
-   
- i did not understand the question but is it the python virtualenv that we were installing in class? 
-
-8. Explore Extensions and Plugins
-   Enhance VS Code with extensions
-I installed several useful extensions in VS Code, including Python, mysql viewer we did on class,  and Prettier.
-
-Challenges:
-Selecting the right extensions to start with.
-
-github link: 
-
+Integrating Git with VS Code:
+I initialized a repository from the Source Control view (Ctrl + Shift + G).
+I staged changes, wrote commit messages, and committed.
+I pushed changes to GitHub using the ... icon and selecting Push.
+I linked my repository to GitHub with git remote add origin <URL>.
